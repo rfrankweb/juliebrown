@@ -1,0 +1,53 @@
+@mixin apply-transition($props) {
+  -webkit-transition: $props;
+  -moz-transition: $props;
+  -o-transition: $props;
+  transition: $props;
+}
+footer {
+  hr {
+    color: white;
+  }
+  background-color: #b94564;
+  padding: 20px;
+  color: white;
+  img {
+    height: 3vh;
+    width: auto;
+  }
+  #foot-cols {
+    display: flex;
+    justify-content: space-between;
+    section {
+      padding: 10px;
+      div {
+        display: flex;
+        padding: 5px;
+        p,
+        img {
+          padding: 3px;
+        }
+        th {
+          text-align: right;
+        }
+      }
+    }
+  }
+  #underFooter {
+    display: flex;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      color: white;
+      @include apply-transition(color 0.3s ease-in);
+    }
+    a,
+    p {
+      padding: 5px;
+      font-size: 13px;
+    }
+    a:hover {
+      color: #ccc;
+    }
+  }
+}

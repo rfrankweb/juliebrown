@@ -1,0 +1,211 @@
+header {
+  z-index: 50;
+  position: fixed;
+  padding: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  background-color: #2c3145;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+header #logo,
+header #logo2 {
+  font-size: 20px;
+  font-family: "Cinzel", serif;
+}
+header #logo2 {
+  font-size: 25px;
+}
+header nav {
+  padding: 0;
+  display: flex;
+}
+header nav .dropbtn {
+  justify-self: end;
+}
+header nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0 4px 4px 4px;
+  z-index: 51;
+}
+header nav .dropdown-content a {
+  display: block;
+  color: #2c3145 !important;
+  padding: 3px;
+}
+header nav .dropdown-content a:hover {
+  color: #7a85b7 !important;
+}
+header nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+header nav .dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: #2c3145 !important;
+  border-radius: 4px 4px 0 0;
+}
+header nav a {
+  margin-right: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+header nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: #7a85b7;
+  text-decoration: none;
+}
+header #phoneButton {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 5vw;
+}
+header #phoneButton a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+header #phoneButton a:hover {
+  color: #7a85b7;
+}
+header #phoneIcon {
+  height: 3vh !important;
+  width: auto;
+  padding-top: 18px;
+  padding-right: 3px;
+}
+
+footer {
+  background-color: #b94564;
+  padding: 20px;
+  color: white;
+}
+footer hr {
+  color: white;
+}
+footer img {
+  height: 3vh;
+  width: auto;
+}
+footer #foot-cols {
+  display: flex;
+  justify-content: space-between;
+}
+footer #foot-cols section {
+  padding: 10px;
+}
+footer #foot-cols section div {
+  display: flex;
+  padding: 5px;
+}
+footer #foot-cols section div p,
+footer #foot-cols section div img {
+  padding: 3px;
+}
+footer #foot-cols section div th {
+  text-align: right;
+}
+footer #underFooter {
+  display: flex;
+  justify-content: space-between;
+}
+footer #underFooter a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+footer #underFooter a,
+footer #underFooter p {
+  padding: 5px;
+  font-size: 13px;
+}
+footer #underFooter a:hover {
+  color: #ccc;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  color: #2c3145;
+}
+
+img {
+  height: 100vh;
+  width: auto;
+}
+
+main #content-container {
+  padding-top: 18vh;
+  display: grid;
+  grid-template-columns: 600px 500px;
+}
+main #content-container #brown_img1 {
+  grid-column-start: 1;
+  height: 60vh;
+  padding: 10vh;
+}
+main #content-container #text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 15vh;
+}
+main #content-container #text h1 {
+  text-align: center;
+  font-size: 34px;
+  padding: 4vh;
+}
+main #content-container #text #cta {
+  padding: 4vh;
+  text-align: center;
+}
+main #content-container #text #cta h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+main #content-container #text #cta a {
+  padding: 10px;
+  justify-self: end;
+  background-color: #2c3145;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition: box-shadow 0.3s ease-in;
+  -moz-transition: box-shadow 0.3s ease-in;
+  -o-transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+}
+main #content-container #text #cta a:hover {
+  box-shadow: 0px 3px 10px black;
+}
+
+/*# sourceMappingURL=about.css.map */

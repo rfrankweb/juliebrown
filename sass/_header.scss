@@ -1,0 +1,96 @@
+@mixin apply-transition($props) {
+  -webkit-transition: $props;
+  -moz-transition: $props;
+  -o-transition: $props;
+  transition: $props;
+}
+header {
+  z-index: 50;
+  position: fixed;
+  padding: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  background-color: #2c3145;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  #logo,
+  #logo2 {
+    font-size: 20px;
+    font-family: "Cinzel", serif;
+  }
+  #logo2 {
+    font-size: 25px;
+  }
+  nav {
+    padding: 0;
+    display: flex;
+    .dropbtn {
+      justify-self: end;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 0 4px 4px 4px;
+      z-index: 51;
+    }
+    .dropdown-content a {
+      display: block;
+      color: #2c3145 !important;
+      padding: 3px;
+    }
+    .dropdown-content a:hover {
+      color: #7a85b7 !important;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #fff;
+      color: #2c3145 !important;
+      border-radius: 4px 4px 0 0;
+    }
+    a {
+      margin-right: 20px;
+      padding-left: 3px;
+      padding-right: 3px;
+      color: #fff;
+      text-decoration: none;
+      @include apply-transition(color 0.3s ease-in);
+    }
+    a:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #7a85b7;
+      text-decoration: none;
+    }
+  }
+  #phoneButton {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 5vw;
+    a {
+      text-decoration: none;
+      color: #fff;
+      @include apply-transition(color 0.3s ease-in);
+    }
+    a:hover {
+      color: #7a85b7;
+    }
+  }
+  #phoneIcon {
+    height: 3vh !important;
+    width: auto;
+    padding-top: 18px;
+    padding-right: 3px;
+  }
+}

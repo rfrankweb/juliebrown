@@ -1,0 +1,84 @@
+@import "header";
+@import "footer";
+@mixin background-image($source) {
+  background-image: url($source);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+$blue-1: #2c3145;
+$blue-2: #7a85b7;
+$red-1: #b94564;
+@mixin apply-transition($props) {
+  -webkit-transition: $props;
+  -moz-transition: $props;
+  -o-transition: $props;
+  transition: $props;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  color: $blue-1;
+}
+
+img {
+  height: 100vh;
+  width: auto;
+}
+
+header {
+  #phoneIcon {
+    height: 2vh !important;
+  }
+}
+
+main {
+  @include background-image("../images/back5 copy.jpg");
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  #content-container {
+    padding: 250px;
+    #info {
+      padding-bottom: 10px;
+      width: 50vw;
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        padding-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    #cta {
+      text-align: center;
+      padding-top: 50px;
+      h2 {
+        font-size: 30px;
+        padding-bottom: 50px;
+      }
+      a {
+        font-weight: bold;
+        background-color: $blue-1;
+        border-radius: 4px;
+        color: white;
+        padding: 10px;
+        border: 3px solid $blue-1;
+        text-decoration: none;
+        @include apply-transition(background-color 0.3s ease-in);
+      }
+      a:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
