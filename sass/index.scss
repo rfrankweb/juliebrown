@@ -6,6 +6,11 @@
   background-size: cover;
   background-position: center;
 }
+$size-1: 0.81rem;
+$size-2: 1.25rem;
+$size-3: 1.5rem;
+$size-4: 1.9rem;
+$size-5: 2.1rem;
 @mixin apply-transition($props) {
   -webkit-transition: $props;
   -moz-transition: $props;
@@ -111,12 +116,12 @@ main {
       grid-template-rows: 150px 75px 150px 75px 75px auto;
       #title2 {
         grid-row-start: 2;
-        font-size: 34px;
+        font-size: $size-5;
         text-align: center;
       }
       #infoP1 {
         grid-row-start: 3;
-        font-size: 20px;
+        font-size: $size-2;
       }
       #specTag {
         grid-row-start: 4;
@@ -179,12 +184,12 @@ main {
         grid-column-start: 2;
         grid-row-start: 2;
         grid-column-end: 4;
-        font-size: 34px;
+        font-size: $size-5;
       }
       #info3 {
         grid-column-start: 2;
         grid-row-start: 3;
-        font-size: 20px;
+        font-size: $size-2;
       }
 
       #div-btn-sec {
@@ -234,12 +239,12 @@ main {
         grid-column-start: 2;
         grid-row-start: 2;
         grid-column-end: 4;
-        font-size: 34px;
+        font-size: $size-5;
       }
       #info4 {
         grid-column-start: 2;
         grid-row-start: 3;
-        font-size: 20px;
+        font-size: $size-2;
       }
 
       #med-btn-sec {
@@ -293,12 +298,12 @@ main {
         grid-column-start: 2;
         grid-row-start: 2;
         grid-column-end: 4;
-        font-size: 34px;
+        font-size: $size-5;
       }
       #info5 {
         grid-column-start: 2;
         grid-row-start: 3;
-        font-size: 20px;
+        font-size: $size-2;
       }
 
       #ado-btn-sec {
@@ -339,7 +344,7 @@ main {
     #container-1 {
       width: 60vh;
       #title7 {
-        font-size: 34px;
+        font-size: $size-5;
         text-align: center;
         padding: 10px;
       }
@@ -392,7 +397,7 @@ main {
           background-color: $blue-1;
           color: white;
           font-weight: bold;
-          font-size: 20;
+          font-size: $size-2;
           @include apply-transition(box-shadow 0.3s ease-in);
         }
         #submit-form:hover {
@@ -409,7 +414,7 @@ main {
           grid-row-start: 9;
           grid-column-start: 1;
           grid-column-end: 3;
-          font-size: 12px;
+          font-size: $size-1;
         }
       }
     }

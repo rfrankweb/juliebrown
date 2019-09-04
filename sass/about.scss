@@ -6,6 +6,11 @@
   background-size: cover;
   background-position: center;
 }
+$size-1: 0.81rem;
+$size-2: 1.25rem;
+$size-3: 1.5rem;
+$size-4: 1.9rem;
+$size-5: 2.1rem;
 $blue-1: #2c3145;
 $blue-2: #7a85b7;
 $red-1: #b94564;
@@ -48,14 +53,14 @@ main {
       padding-top: 15vh;
       h1 {
         text-align: center;
-        font-size: 34px;
+        font-size: $size-5;
         padding: 4vh;
       }
       #cta {
         padding: 4vh;
         text-align: center;
         h2 {
-          font-size: 25px;
+          font-size: $size-3;
           padding-bottom: 20px;
         }
         a {

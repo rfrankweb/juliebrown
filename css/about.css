@@ -14,11 +14,11 @@ header {
 }
 header #logo,
 header #logo2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Cinzel", serif;
 }
 header #logo2 {
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 header nav {
   padding: 0;
@@ -140,7 +140,7 @@ footer #underFooter a {
 footer #underFooter a,
 footer #underFooter p {
   padding: 5px;
-  font-size: 13px;
+  font-size: 0.81rem;
 }
 footer #underFooter a:hover {
   color: #ccc;
@@ -180,7 +180,7 @@ main #content-container #text {
 }
 main #content-container #text h1 {
   text-align: center;
-  font-size: 34px;
+  font-size: 2.1rem;
   padding: 4vh;
 }
 main #content-container #text #cta {
@@ -188,7 +188,7 @@ main #content-container #text #cta {
   text-align: center;
 }
 main #content-container #text #cta h2 {
-  font-size: 25px;
+  font-size: 1.5rem;
   padding-bottom: 20px;
 }
 main #content-container #text #cta a {

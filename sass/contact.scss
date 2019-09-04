@@ -6,6 +6,11 @@
   background-size: cover;
   background-position: center;
 }
+$size-1: 0.81rem;
+$size-2: 1.25rem;
+$size-3: 1.5rem;
+$size-4: 1.9rem;
+$size-5: 2.1rem;
 $blue-1: #2c3145;
 $blue-2: #7a85b7;
 $red-1: #b94564;
@@ -45,7 +50,7 @@ main {
     padding: 20px;
     margin-top: 150px;
     h1 {
-      font-size: 34px;
+      font-size: $size-5;
       text-align: center;
     }
     img {
@@ -68,7 +73,7 @@ main {
         }
       }
       #infoSec {
-        font-size: 20px;
+        font-size: $size-2;
       }
     }
     #contact-sec {
@@ -124,7 +129,7 @@ main {
           background-color: $blue-1;
           color: white;
           font-weight: bold;
-          font-size: 20;
+          font-size: $size-2;
           @include apply-transition(box-shadow 0.3s ease-in);
         }
         #submit-form:hover {
@@ -140,7 +145,7 @@ main {
         .thankyou_message {
           grid-row-start: 10;
           grid-column-start: 2;
-          font-size: 12px;
+          font-size: $size-1;
         }
       }
     }

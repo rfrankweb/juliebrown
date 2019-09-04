@@ -14,11 +14,11 @@ header {
 }
 header #logo,
 header #logo2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Cinzel", serif;
 }
 header #logo2 {
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 header nav {
   padding: 0;
@@ -111,6 +111,11 @@ footer #foot-cols {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 700px) {
+  footer #foot-cols {
+    flex-direction: column;
+  }
+}
 footer #foot-cols section {
   padding: 10px;
 }
@@ -140,7 +145,7 @@ footer #underFooter a {
 footer #underFooter a,
 footer #underFooter p {
   padding: 5px;
-  font-size: 13px;
+  font-size: 0.81rem;
 }
 footer #underFooter a:hover {
   color: #ccc;
@@ -248,12 +253,12 @@ main #infoSec #infoIntern {
 }
 main #infoSec #infoIntern #title2 {
   grid-row-start: 2;
-  font-size: 34px;
+  font-size: 2.1rem;
   text-align: center;
 }
 main #infoSec #infoIntern #infoP1 {
   grid-row-start: 3;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 main #infoSec #infoIntern #specTag {
   grid-row-start: 4;
@@ -317,12 +322,12 @@ main #divChildSec #div-Child-info #title3 {
   grid-column-start: 2;
   grid-row-start: 2;
   grid-column-end: 4;
-  font-size: 34px;
+  font-size: 2.1rem;
 }
 main #divChildSec #div-Child-info #info3 {
   grid-column-start: 2;
   grid-row-start: 3;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 main #divChildSec #div-Child-info #div-btn-sec {
   grid-column-start: 2;
@@ -375,12 +380,12 @@ main #mediationSec #mediat-info #title4 {
   grid-column-start: 2;
   grid-row-start: 2;
   grid-column-end: 4;
-  font-size: 34px;
+  font-size: 2.1rem;
 }
 main #mediationSec #mediat-info #info4 {
   grid-column-start: 2;
   grid-row-start: 3;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 main #mediationSec #mediat-info #med-btn-sec {
   grid-column-start: 2;
@@ -433,12 +438,12 @@ main #adoptionSec #adop-info #title5 {
   grid-column-start: 2;
   grid-row-start: 2;
   grid-column-end: 4;
-  font-size: 34px;
+  font-size: 2.1rem;
 }
 main #adoptionSec #adop-info #info5 {
   grid-column-start: 2;
   grid-row-start: 3;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 main #adoptionSec #adop-info #ado-btn-sec {
   grid-column-start: 2;
@@ -478,7 +483,7 @@ main #contSec #container-1 {
   width: 60vh;
 }
 main #contSec #container-1 #title7 {
-  font-size: 34px;
+  font-size: 2.1rem;
   text-align: center;
   padding: 10px;
 }
@@ -532,7 +537,7 @@ main #contSec #container-1 #main-form #submit-form {
   background-color: #2c3145;
   color: white;
   font-weight: bold;
-  font-size: 20;
+  font-size: 1.25rem;
   -webkit-transition: box-shadow 0.3s ease-in;
   -moz-transition: box-shadow 0.3s ease-in;
   -o-transition: box-shadow 0.3s ease-in;
@@ -552,7 +557,7 @@ main #contSec #container-1 #main-form .thankyou_message {
   grid-row-start: 9;
   grid-column-start: 1;
   grid-column-end: 3;
-  font-size: 12px;
+  font-size: 0.81rem;
 }
 
 /*# sourceMappingURL=index.css.map */
