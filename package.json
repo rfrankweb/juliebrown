@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/rfrank6023/juliebrown2/issues"
   },
-  "homepage": "https://github.com/rfrank6023/juliebrown2#readme",
-  "dependencies": {
-    "bounds.js": "^1.0.3"
-  }
+  "homepage": "https://github.com/rfrank6023/juliebrown2#readme"
 }
