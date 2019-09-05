@@ -111,9 +111,14 @@ footer #foot-cols {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
   footer #foot-cols {
     flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  footer #foot-cols iframe {
+    display: none;
   }
 }
 footer #foot-cols section {
@@ -134,6 +139,11 @@ footer #underFooter {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1100px) {
+  footer #underFooter {
+    flex-direction: column;
+  }
+}
 footer #underFooter a {
   text-decoration: none;
   color: white;
@@ -148,6 +158,9 @@ footer #underFooter p {
   font-size: 0.81rem;
 }
 footer #underFooter a:hover {
+  color: #ccc;
+}
+footer #underFooter #copyright {
   color: #ccc;
 }
 
