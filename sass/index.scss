@@ -37,73 +37,64 @@ img {
   height: 100vh;
   width: auto;
 }
+header {
+  margin-top: -10vh;
+}
 
 main {
   #landingSec {
-    height: 90vh;
-    #backImg1 {
-      position: absolute;
-      width: 100vw;
-      height: 90vh;
-      background: linear-gradient(241.24deg, #cedcf4 0%, #52596e 100%);
-      transform: matrix(-1, 0, 0, 1, 0, 0);
+    min-height: 60vh;
+    margin-top: 10vh;
+    
+    #content-container {
+      background: linear-gradient(241.24deg, #52596e 0%, #cedcf4 100%);
       z-index: -5;
-      #julieImg {
-        height: 80vh !important;
-        padding-top: 10vh;
-        position: relative;
-        left: 100px;
-        animation: fadeIn 1s forwards 0s ease-in;
-      }
-    }
-  }
-  #mainText {
-    color: $red-1;
-    display: grid;
-    grid-template-columns: 250px 50px 300px 200px auto;
-    grid-template-rows: 350px 10px 25px 10px 40px 75px auto;
-    justify-items: stretch;
-    #mainText1 {
-      grid-column-start: 2;
-      grid-column-end: 5;
-      grid-row-start: 2;
-      grid-row-end: 3;
-      font-weight: 100;
-    }
-    #mainText2 {
-      grid-column-start: 2;
-      grid-column-end: 5;
-      grid-row-start: 4;
-      grid-row-end: 5;
-      font-size: 40px;
-    }
-    #landBtns {
-      grid-column-start: 2;
-      grid-column-end: 4;
-      grid-row-start: 6;
-      grid-row-end: 7;
       display: flex;
-      justify-content: space-around;
+      justify-content:space-around;
       align-items: center;
-      a {
-        font-weight: bold;
-        background-color: #b94564;
-        border-radius: 4px;
-        color: white;
-        padding: 10px;
-        border: 3px solid $red-1;
-        text-decoration: none;
-        @include apply-transition(box-shadow 0.3s ease-in);
+      flex-wrap: wrap;
+      #julieImg {
+        max-height: 60vh !important;
+        animation: fadeIn 1s forwards 0s ease-in;
+        max-width: 100vw;
       }
-      a:hover {
-        box-shadow: 0px 3px 10px black;
-      }
-      #ctabtn2 {
-        background-color: white;
+      #mainText {
         color: $red-1;
+        padding-top: 20vh !important;
+        padding: 5vh;
+        #mainText1 {
+          font-weight: 100;
+        }
+        #mainText2 {
+          font-size: 2rem;
+          padding-bottom: 10px;
+        }
+        #landBtns {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          a {
+            font-weight: bold;
+            background-color: #b94564;
+            border-radius: 4px;
+            color: white;
+            padding: 10px;
+            border: 3px solid $red-1;
+            text-decoration: none;
+            @include apply-transition(box-shadow 0.3s ease-in);
+          }
+          a:hover {
+            box-shadow: 0px 3px 10px black;
+          }
+          #ctabtn2 {
+            background-color: white;
+            color: $red-1;
+          }
+        }
       }
     }
   }
+ 
   #infoSec {
     @include background-image("../images/back2 copy.jpg");
     height: 90vh;
@@ -111,9 +102,10 @@ main {
     display: flex;
     justify-content: center;
     #infoIntern {
-      width: 70vh;
+      max-width: 70vh;
       display: grid;
       grid-template-rows: 150px 75px 150px 75px 75px auto;
+      padding: 15px;
       #title2 {
         grid-row-start: 2;
         font-size: $size-5;
