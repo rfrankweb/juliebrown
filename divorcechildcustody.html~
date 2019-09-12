@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      Contact - The Law Office of Julie A. Brown and Associates
+      Divorce and Child Custody - The Law Office of Julie A. Brown and
+      Associates
     </title>
     <link
       href="https://fonts.googleapis.com/css?family=Cinzel:700|Raleway:400,700&display=swap"
@@ -13,10 +14,10 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="./images/favicon.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/div.css" />
   </head>
   <body>
-    <header data-aos = "fade"> 
+    <header data-aos="fade">
       <div id="logos">
         <p id="logo">The Law Office of</p>
         <p id="logo2">Julie A. Brown & Associates</p>
@@ -43,103 +44,24 @@
       </div>
     </header>
     <main>
-      <section id="content-container">
-        <h1 data-aos="fade">Contact Us</h1>
-	<p id = "contact-info">If you are interested in using one of our services, let us know. Leave your name, e-mail, service, and a brief message and we will get back to you when we can!</p>
-        <section id="main-content">
-          <section id="infoSec">
-            <div id="addressInf" data-aos="fade" data-aos-delay="100">
-              <img id="logo2" src="./images/logo2No2.png" alt="compass logo" />
-              <p id="address">
-                400 South Sierra Avenue<br />
-                Suite 101<br />
-                Solana Beach, CA<br />
-                92075<br />
-              </p>
-            </div>
-            <div id="phoneNo" data-aos="fade" data-aos-delay="150">
-              <img id="logo1No2" src="./images/logo1.png" alt="phone logo" />
-              <p id="phone">
-                (619) 542 1300
-              </p>
-            </div>
-            <div id="email" data-aos="fade" data-aos-delay="200">
-              <img id="logo3" src="./images/logo3No2.png" alt="Mail Icon" />
-              <p id="emailName">juliebrown@brownassociateslegal.com</p>
-            </div>
-            <div id="hours" data-aos="fade" data-aos-delay="250">
-              <img id="logo4" src="./images/logo4No2.png" alt="Clock Icon" />
-              <table id="hoursTable">
-                <tr>
-                  <th>Monday-Thursday</th>
-                  <td>9:00 AM - 5:00 PM</td>
-                </tr>
-                <tr>
-                  <th>Friday</th>
-                  <td>9:00 AM - 1:30 PM</td>
-                </tr>
-              </table>
-            </div>
-          </section>
-          <section id="contact-sec">
-            <form
-            class="gform"
-            id="main-form"
-            method="POST"
-            
-            action="https://script.google.com/macros/s/AKfycbySXRYYSyw3oor8iI_R4PVAC9BRD1LPlUfy_6taZt1B2NPz5vc/exec"
-            data-email="rockwoodfrank@gmail.com"
-          >
-            <p id="form-name" data-aos="fade">Name</p>
-            <input
-              id="name-input"
-              type="text"
-              name="name"
-              placeholder="Jane Doe"
-              data-aos="fade-up"
-              required
-            />
-            <p id="form-email" data-aos="fade">E-Mail</p>
-            <input
-              id="email-input"
-              type="email"
-              name="email"
-              placeholder="jane@example.com"
-              data-aos="fade-up"
-              required
-            />
-            <p id="form-service" data-aos="fade">I am Interested In...</p>
-            <select
-              id="service-input"
-              name="service"
-              data-aos="fade-up"
-              required
-            >
-              <option value="select" selected>Select One</option>
-              <option value="divorce_and_child_custody"
-                >Divorce and Child Custody</option
-              >
-              <option value="mediation">Mediation</option>
-              <option value="adoptions">Adoptions</option>
-            </select>
-            <p id="form-message" data-aos="fade">Message</p>
-            <textarea
-              id="message-input"
-              name="comment"
-              form="main-form"
-              placeholder="How can we help?"
-              data-aos="fade-up"
-            ></textarea>
-
-              <input type="submit" id="submit-form" value="Submit" />
-              <div style="display:none" class="thankyou_message">
-                <p><em>Thanks</em> for contacting us!<br />We will get back to you soon!
-                </p>
-               </div>
-          </form>
-          </section>
+      <div id="content-container">
+        <section id="info">
+          <h1 data-aos="fade">Divorce and Child Custody</h1>
+          <p data-aos="fade" data-aos-delay="100">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+            maiores reprehenderit distinctio iure. Officia reprehenderit veniam
+            suscipit, quos laborum blanditiis magni cum molestias dicta autem
+            ullam beatae, voluptatibus ipsum impedit nulla minus. Accusamus,
+            possimus. Mollitia, aperiam laudantium incidunt itaque, distinctio
+            quis nulla aliquid facilis tempore non illo in excepturi.
+            Asperiores.
+          </p>
         </section>
-      </section>
+        <section id="cta" data-aos="fade" data-aos-delay="200">
+          <h2>Interested?</h2>
+          <a href="./contact.html">Get Started</a>
+        </section>
+      </div>
     </main>
     <footer>
       <div id="foot-cols">
@@ -226,6 +148,5 @@
         easing: "ease-in"
       });
     </script>
-    <script data-cfasync="false" type="text/javascript" src="./scripts/form-submission-handler.js"></script>
   </body>
 </html>
