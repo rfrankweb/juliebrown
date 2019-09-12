@@ -54,10 +54,9 @@ main {
       font-size: $size-5;
       text-align: center;
     }
-    #contact-info {
+    p {
 	    text-align: center;
-	    margin-right: 10vw;
-	    margin-left: 10vw;
+	    max-width: 600px;
     }
     img {
       height: 2vh;

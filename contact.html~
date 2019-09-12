@@ -45,7 +45,7 @@
     <main>
       <section id="content-container">
         <h1 data-aos="fade">Contact Us</h1>
-	<p id = "contact-info">If you are interested in using one of our services, let us know. Leave your name, e-mail, service, and a brief message and we will get back to you when we can!</p>
+	<p>If you are interested in using one of our services, let us know. Leave your name, e-mail, service, and a brief message and we will get back to you when we can!</p>
         <section id="main-content">
           <section id="infoSec">
             <div id="addressInf" data-aos="fade" data-aos-delay="100">

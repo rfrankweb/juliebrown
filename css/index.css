@@ -241,38 +241,36 @@ main #infoSec {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  min-height: 70vh;
   color: white;
   display: flex;
   justify-content: center;
 }
 main #infoSec #infoIntern {
   max-width: 70vh;
-  display: grid;
-  grid-template-rows: 150px 75px 150px 75px 75px auto;
+  margin-top: 10vh;
   padding: 15px;
 }
 main #infoSec #infoIntern #title2 {
   grid-row-start: 2;
-  font-size: 2.1rem;
   text-align: center;
 }
 main #infoSec #infoIntern #infoP1 {
-  grid-row-start: 3;
-  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 20px;
 }
 main #infoSec #infoIntern #specTag {
-  grid-row-start: 4;
-  font-size: 28px;
   text-align: center;
+  margin-top: 5vh;
 }
 main #infoSec #infoIntern #infoBtns {
   animation: fadeIn 1s forwards 0.4s ease-in;
   animation: buttonFly 1s forwards 0.4s ease-in;
-  grid-row-start: 5;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 main #infoSec #infoIntern #infoBtns a {
   color: white;
@@ -284,6 +282,7 @@ main #infoSec #infoIntern #infoBtns a {
   -moz-transition: box-shadow 0.3s ease-in;
   -o-transition: box-shadow 0.3s ease-in;
   transition: box-shadow 0.3s ease-in;
+  margin: 10px;
 }
 main #infoSec #infoIntern #infoBtns a:hover {
   box-shadow: 0px 3px 10px black;
@@ -296,28 +295,25 @@ main #divChildSec {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-}
-main #divChildSec #white-back-1 {
-  background-color: white;
-  width: 50vw;
-  height: 100vh;
-  position: relative;
-  left: 50vw;
+  height: 80vh;
 }
 main #divChildSec #white-grad-1 {
-  background: linear-gradient(270deg, #ffffff 0%, rgba(196, 196, 196, 0) 100%);
-  width: 50vw;
-  height: 100vh;
+  background: linear-gradient(270deg, #ffffff 20%, rgba(255, 255, 255, 0.6) 100%);
+  width: 100vw;
+  height: 80vh;
   position: relative;
-  bottom: 100vh;
 }
 main #divChildSec #div-Child-info {
   display: grid;
   grid-template-columns: 60vw 300px auto;
   grid-template-rows: 200px 100px 200px;
   position: relative;
-  bottom: 200vh;
+  bottom: 80vh;
+}
+@media (max-width: 800px) {
+  main #divChildSec #div-Child-info {
+    grid-template-columns: 10vw 300px auto;
+  }
 }
 main #divChildSec #div-Child-info #title3 {
   grid-column-start: 2;
@@ -354,20 +350,12 @@ main #mediationSec {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
 }
 main #mediationSec #white-grad-2 {
-  background: linear-gradient(270deg, rgba(196, 196, 196, 0) 0%, #fff 100%);
-  width: 50vw;
-  height: 100vh;
-  position: relative;
-  left: 50vw;
-  bottom: 100vh;
-}
-main #mediationSec #white-back-2 {
-  background-color: white;
-  width: 50vw;
-  height: 100vh;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.6) 0%, white 70%);
+  width: 100vw;
+  height: 80vh;
   position: relative;
 }
 main #mediationSec #mediat-info {
@@ -375,7 +363,12 @@ main #mediationSec #mediat-info {
   grid-template-columns: 10vw 300px auto;
   grid-template-rows: 200px 100px 200px;
   position: relative;
-  bottom: 200vh;
+  bottom: 80vh;
+}
+@media (max-width: 800px) {
+  main #mediationSec #mediat-info {
+    grid-template-columns: 10vw 300px auto;
+  }
 }
 main #mediationSec #mediat-info #title4 {
   grid-column-start: 2;
@@ -412,28 +405,25 @@ main #adoptionSec {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-}
-main #adoptionSec #white-back-3 {
-  background-color: white;
-  width: 50vw;
-  height: 100vh;
-  position: relative;
-  left: 50vw;
+  height: 80vh;
 }
 main #adoptionSec #white-grad-3 {
-  background: linear-gradient(270deg, #ffffff 0%, rgba(196, 196, 196, 0) 100%);
-  width: 50vw;
-  height: 100vh;
+  background: linear-gradient(270deg, #ffffff 30%, rgba(255, 255, 255, 0.6) 100%);
+  width: 100vw;
+  height: 80vh;
   position: relative;
-  bottom: 100vh;
 }
 main #adoptionSec #adop-info {
   display: grid;
   grid-template-columns: 60vw 300px auto;
   grid-template-rows: 200px 100px 200px;
   position: relative;
-  bottom: 200vh;
+  bottom: 80vh;
+}
+@media (max-width: 800px) {
+  main #adoptionSec #adop-info {
+    grid-template-columns: 10vw 300px auto;
+  }
 }
 main #adoptionSec #adop-info #title5 {
   grid-column-start: 2;
@@ -492,6 +482,7 @@ main #contSec #container-1 #main-form {
   display: grid;
   grid-template-columns: 150px auto;
   grid-template-rows: 40px 10px 40px 10px 40px 10px 150px 10px;
+  padding-top: 10px;
 }
 main #contSec #container-1 #main-form #form-name {
   grid-column-start: 1;

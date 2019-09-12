@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="height=device-height, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      Contact - The Law Office of Julie A. Brown and Associates
+      The Law Office of Julie Brown and Associates - San Diego Family Lawyer
     </title>
     <link
       href="https://fonts.googleapis.com/css?family=Cinzel:700|Raleway:400,700&display=swap"
@@ -13,13 +16,13 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="./images/favicon.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header data-aos = "fade"> 
+    <header data-aos="fade" data-aos-delay="100">
       <div id="logos">
-        <p id="logo">The Law Office of</p>
-        <p id="logo2">Julie A. Brown & Associates</p>
+        <h4 id="logo">The Law Office of</p>
+        <h3 id="logo2">Julie A. Brown & Associates</p>
       </div>
       <nav>
         <a class="navs" href="./index.html">Home</a>
@@ -42,47 +45,102 @@
         </p>
       </div>
     </header>
+
     <main>
-      <section id="content-container">
-        <h1 data-aos="fade">Contact Us</h1>
-	<p id = "contact-info">If you are interested in using one of our services, let us know. Leave your name, e-mail, service, and a brief message and we will get back to you when we can!</p>
-        <section id="main-content">
-          <section id="infoSec">
-            <div id="addressInf" data-aos="fade" data-aos-delay="100">
-              <img id="logo2" src="./images/logo2No2.png" alt="compass logo" />
-              <p id="address">
-                400 South Sierra Avenue<br />
-                Suite 101<br />
-                Solana Beach, CA<br />
-                92075<br />
-              </p>
+      <section id="landingSec">
+        <div id="backImg1"> 
+        </div>
+        <div id="content-container">
+          <div id="mainText" data-aos="fade-up" data-aos-delay="300">
+            <h2 id="mainText1">Make Sure You Have an Attorney Who is</h2>
+            <h1 id="mainText2">Dedicated to Helping You.</h1>
+            <div id="landBtns">
+              <a id="ctabtn1" href="./contact.html">Get in Touch</a>
+              <a id="ctabtn2" href="#infoSec">What We Do</a>
             </div>
-            <div id="phoneNo" data-aos="fade" data-aos-delay="150">
-              <img id="logo1No2" src="./images/logo1.png" alt="phone logo" />
-              <p id="phone">
-                (619) 542 1300
-              </p>
-            </div>
-            <div id="email" data-aos="fade" data-aos-delay="200">
-              <img id="logo3" src="./images/logo3No2.png" alt="Mail Icon" />
-              <p id="emailName">juliebrown@brownassociateslegal.com</p>
-            </div>
-            <div id="hours" data-aos="fade" data-aos-delay="250">
-              <img id="logo4" src="./images/logo4No2.png" alt="Clock Icon" />
-              <table id="hoursTable">
-                <tr>
-                  <th>Monday-Thursday</th>
-                  <td>9:00 AM - 5:00 PM</td>
-                </tr>
-                <tr>
-                  <th>Friday</th>
-                  <td>9:00 AM - 1:30 PM</td>
-                </tr>
-              </table>
-            </div>
-          </section>
-          <section id="contact-sec">
-            <form
+          </div>
+          <img
+            id="julieImg"
+            src="./images/brown_img3 copy.png"
+            alt="Picture of Julie Brown"
+            data-aos="fade"
+          />
+        </div>
+      </section>
+      <section id="infoSec">
+        <span id="infoIntern">
+          <h1 id="title2" data-aos="fade">Ready when you need us most.</h1>
+          <p id="infoP1" data-aos="fade">
+            With over 25 years of experience in the San Diego Area, we are more
+            than prepared for your biggest legal issues. Julie Brown and
+            Associates is always willing to fight for you.
+          </p>
+          <h2 id="specTag" data-aos="fade" data-aos-delay="100">
+            We Specialize In:
+          </h2>
+          <div id="infoBtns" data-aos="fade-up" data-aos-delay="300">
+            <a id="divChild" href="#divChildSec"
+              >Divorce and<br />Child Custody</a
+            >
+            <a id="medBtn" class="othBtns" href="#mediationSec">Mediation</a>
+            <a id="adopBtn" class="othBtns" href="#adoptionSec">Adoptions</a>
+          </div>
+        </span>
+      </section>
+      <section id="divChildSec">
+        <div id="white-grad-1"></div>
+        <div id="div-Child-info">
+          <h1 id="title3" data-aos="fade-left">Divorce and Child Custody</h1>
+          <p id="info3" data-aos="fade-left">
+            Things happen. We get it. Just make sure you have someone you trust
+            to get you through.
+          </p>
+          <div id="div-btn-sec" data-aos="fade-left" data-aos-delay="300">
+            <a id="divChiBtn" href="./divorcechildcustody.html">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section id="mediationSec">
+        <div id="white-grad-2"></div>
+        <div id="mediat-info">
+          <h1 id="title4" data-aos="fade-right">Mediation</h1>
+          <p id="info4" data-aos="fade-right">
+            If you need an attorney who is dedicated to being impartial to both
+            sides, we’re ready.
+          </p>
+          <div id="med-btn-sec" data-aos="fade-right" data-aos-delay="300">
+            <a id="mediaBtn" href="?">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section id="adoptionSec">
+        <div id="white-grad-3"></div>
+        <div id="adop-info">
+          <h1 id="title5" data-aos="fade-left">Adoptions</h1>
+          <p id="info5" data-aos="fade-left">
+            Interested in adopting? We can help you throughout the entire
+            process.
+          </p>
+          <div id="ado-btn-sec" data-aos="fade-left" data-aos-delay="300">
+            <a id="adopBtn" href="?">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <!--<section id="testSec">
+        <h1 id="title6">Here's What Others Have to Say...</h1>
+        <div id="testimonials">
+          <testimonial-item></testimonial-item>
+          <testimonial-item></testimonial-item>
+          <testimonial-item></testimonial-item>
+        </div>
+      </section>-->
+      <section id="contSec">
+        <div id="container-1">
+          <h1 id="title7" data-aos="fade">
+            Let's Chat.
+          </h1>
+	  <p>If you are interested in using one of our services, let us know. Leave your name, e-mail, service, and a breif message and we will get back to you when we can!</p>
+          <form
             class="gform"
             id="main-form"
             method="POST"
@@ -137,8 +195,7 @@
                 </p>
                </div>
           </form>
-          </section>
-        </section>
+        </div>
       </section>
     </main>
     <footer>
@@ -215,7 +272,7 @@
         </div>
         <div id="socials">
           <a class="mediaLinks" href="http://linkedin.com">
-            LinkedIn
+            <img id = "linkedIn" src = "images/linkedin.png" alt = "Link to Julie's linkedIn" />
           </a>
         </div>
       </div>
