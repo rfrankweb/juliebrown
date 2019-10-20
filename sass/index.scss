@@ -39,12 +39,15 @@ img {
 }
 header {
   margin-top: -10vh;
+  position: sticky;
+  top: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 main {
   #landingSec {
     min-height: 60vh;
-    margin-top: 10vh;
+    margin-bottom: 10vh;
     
     #content-container {
       background: linear-gradient(241.24deg, #52596e 0%, #cedcf4 100%);
@@ -70,9 +73,8 @@ main {
           padding-bottom: 10px;
         }
         #landBtns {
-          display: flex;
-          justify-content: space-around;
           align-items: center;
+          padding-top: 10px;
           a {
             font-weight: bold;
             background-color: #b94564;
@@ -392,6 +394,9 @@ main {
           grid-column-start: 1;
           grid-column-end: 3;
           font-size: $size-1;
+        }
+        p {
+          grid-row-start: 9;
         }
       }
     }

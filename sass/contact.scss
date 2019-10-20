@@ -150,6 +150,9 @@ main {
           grid-column-start: 2;
           font-size: $size-1;
         }
+        p {
+          grid-row-start: 9;
+        }
       }
     }
   }

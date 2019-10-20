@@ -28,10 +28,14 @@ header {
   #logo2 {
     font-family: "Cinzel", serif;
   }
-
+  #logo-justice {
+    height: 12vh;
+    width: auto;
+  }
   nav {
     padding: 0;
     display: flex;
+    margin-right: 40px;
     .dropbtn {
       justify-self: end;
     }
@@ -76,25 +80,5 @@ header {
       color: #7a85b7;
       text-decoration: none;
     }
-  }
-  #phoneButton {
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 5vw;
-    a {
-      text-decoration: none;
-      color: #fff;
-      @include apply-transition(color 0.3s ease-in);
-    }
-    a:hover {
-      color: #7a85b7;
-    }
-  }
-  #phoneIcon {
-    height: 3vh !important;
-    width: auto;
-    padding-top: 18px;
-    padding-right: 3px;
   }
 }

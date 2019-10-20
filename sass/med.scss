@@ -45,46 +45,50 @@ header {
 }
 
 main {
-  @include background-image("../images/back4 copy.jpg");
+  h2 
+  {
+    padding-top: 20px;
+  }
+  padding-top:150px;
   min-height: 100vh;
   width: auto;
-  display: flex;
-  justify-content: center;
-  #content-container {
-    padding-top: 200px !important;
-    padding: 10vw;
-    #info {
-      padding-bottom: 10px;
-      max-width: 700px;
-      h1 {
-        text-align: center;
-        font-size: $size-5;
-        padding-bottom: 20px;
-      }
-      p {
-        font-size: $size-2;
-      }
+  padding-bottom: 50px;
+  #image-title
+  {
+    @include background-image("../images/back4 copy2.jpg");
+    padding: 50px;
+    height: 200px;
+    margin-top: -10px;
+  }
+  h1 
+  {
+    font-size: $size-5;
+  }
+  #info {
+    padding: 50px;
+    p {
+      font-size: $size-2;
     }
-    #cta {
-      text-align: center;
-      padding-top: 50px;
-      h2 {
-        font-size: $size-4;
-        padding-bottom: 50px;
-      }
-      a {
-        font-weight: bold;
-        background-color: $blue-1;
-        border-radius: 4px;
-        color: white;
-        padding: 10px;
-        border: 3px solid $blue-1;
-        text-decoration: none;
-        @include apply-transition(background-color 0.3s ease-in);
-      }
-      a:hover {
-        background-color: transparent;
-      }
+  }
+  #cta {
+    text-align: center;
+    padding-top: 50px;
+    h2 {
+      font-size: $size-4;
+      padding-bottom: 50px;
+    }
+    a {
+      font-weight: bold;
+      background-color: $blue-1;
+      border-radius: 4px;
+      color: white;
+      padding: 10px;
+      border: 3px solid $blue-1;
+      text-decoration: none;
+      @include apply-transition(background-color 0.3s ease-in);
+    }
+    a:hover {
+      background-color: transparent;
     }
   }
 }

@@ -17,9 +17,14 @@ header #logo,
 header #logo2 {
   font-family: "Cinzel", serif;
 }
+header #logo-justice {
+  height: 12vh;
+  width: auto;
+}
 header nav {
   padding: 0;
   display: flex;
+  margin-right: 40px;
 }
 header nav .dropbtn {
   justify-self: end;
@@ -67,29 +72,6 @@ header nav a:visited {
 header nav a:hover {
   color: #7a85b7;
   text-decoration: none;
-}
-header #phoneButton {
-  display: flex;
-  align-items: center;
-  position: relative;
-  right: 5vw;
-}
-header #phoneButton a {
-  text-decoration: none;
-  color: #fff;
-  -webkit-transition: color 0.3s ease-in;
-  -moz-transition: color 0.3s ease-in;
-  -o-transition: color 0.3s ease-in;
-  transition: color 0.3s ease-in;
-}
-header #phoneButton a:hover {
-  color: #7a85b7;
-}
-header #phoneIcon {
-  height: 3vh !important;
-  width: auto;
-  padding-top: 18px;
-  padding-right: 3px;
 }
 
 footer {
@@ -180,11 +162,14 @@ img {
 
 header {
   margin-top: -10vh;
+  position: sticky;
+  top: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 main #landingSec {
   min-height: 60vh;
-  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 main #landingSec #content-container {
   background: linear-gradient(241.24deg, #52596e 0%, #cedcf4 100%);
@@ -212,9 +197,8 @@ main #landingSec #content-container #mainText #mainText2 {
   padding-bottom: 10px;
 }
 main #landingSec #content-container #mainText #landBtns {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  padding-top: 10px;
 }
 main #landingSec #content-container #mainText #landBtns a {
   font-weight: bold;
@@ -550,6 +534,9 @@ main #contSec #container-1 #main-form .thankyou_message {
   grid-column-start: 1;
   grid-column-end: 3;
   font-size: 0.81rem;
+}
+main #contSec #container-1 #main-form p {
+  grid-row-start: 9;
 }
 
 /*# sourceMappingURL=index.css.map */
