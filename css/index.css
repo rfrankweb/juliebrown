@@ -220,6 +220,10 @@ main #landingSec #content-container #mainText #landBtns #ctabtn2 {
   background-color: white;
   color: #b94564;
 }
+main #landingSec #content-container #mainText #landBtns #ctabtn {
+  background-color: #b94564;
+  color: white;
+}
 main #infoSec {
   background-image: url("../images/back2 copy.jpg");
   background-repeat: no-repeat;
@@ -290,9 +294,9 @@ main #divChildSec #white-grad-1 {
 main #divChildSec #div-Child-info {
   display: grid;
   grid-template-columns: 60vw 300px auto;
-  grid-template-rows: 200px 100px 200px;
+  grid-template-rows: auto auto auto;
   position: relative;
-  bottom: 80vh;
+  bottom: 60vh;
 }
 @media (max-width: 800px) {
   main #divChildSec #div-Child-info {
@@ -309,6 +313,8 @@ main #divChildSec #div-Child-info #info3 {
   grid-column-start: 2;
   grid-row-start: 3;
   font-size: 1.25rem;
+  padding: 20px;
+  padding-left: 0 !important;
 }
 main #divChildSec #div-Child-info #div-btn-sec {
   grid-column-start: 2;
@@ -535,8 +541,9 @@ main #contSec #container-1 #main-form .thankyou_message {
   grid-column-end: 3;
   font-size: 0.81rem;
 }
-main #contSec #container-1 #main-form p {
-  grid-row-start: 9;
+main #contSec #container-1 #main-form #disclaimer {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 /*# sourceMappingURL=index.css.map */
