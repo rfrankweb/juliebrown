@@ -169,7 +169,7 @@ header {
 
 main #landingSec {
   min-height: 60vh;
-  margin-bottom: 10vh;
+  margin-top: 10vh;
 }
 main #landingSec #content-container {
   background: linear-gradient(241.24deg, #52596e 0%, #cedcf4 100%);
@@ -544,6 +544,7 @@ main #contSec #container-1 #main-form .thankyou_message {
 main #contSec #container-1 #main-form #disclaimer {
   grid-column-start: 1;
   grid-column-end: 3;
+  grid-row-start: 9;
 }
 
 /*# sourceMappingURL=index.css.map */
