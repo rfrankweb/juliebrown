@@ -170,7 +170,7 @@ main {
   justify-content: center;
 }
 main #content-container {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.95);
   width: 80vw;
   min-height: 70vh;
   padding: 20px;
@@ -276,6 +276,12 @@ main #content-container #contact-sec #main-form .thankyou_message {
   grid-row-start: 10;
   grid-column-start: 2;
   font-size: 0.81rem;
+}
+main #content-container #contact-sec #main-form p.disclaimer {
+  grid-row-start: 10;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  padding-top: 2em;
 }
 
 /*# sourceMappingURL=contact.css.map */
