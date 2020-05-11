@@ -161,10 +161,10 @@ img {
 }
 
 main {
-  background-image: url("../images/conBack1.jpg");
+  background-image: url("../images/test-img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   min-height: 100vh;
   display: flex;
   justify-content: center;

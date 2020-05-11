@@ -4,7 +4,7 @@
   background-image: url($source);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 $size-1: 0.81rem;
 $size-2: 1.25rem;
@@ -39,7 +39,7 @@ img {
 }
 
 main {
-  @include background-image("../images/conBack1.jpg");
+  @include background-image("../images/test-img-1.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
