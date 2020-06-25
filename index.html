@@ -17,26 +17,10 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header data-aos="fade" data-aos-delay="100">
-      <div id="logos">
-        <h4 id="logo">The Law Office of</h4>
-        <h3 id="logo2">Julie A. Brown, Attorney at Law</h3>
-      </div>
-      <img id="logo-justice" src="./images/logo-justice.svg" alt="Picture of Justice">
-      <nav>
-        <a class="navs" href="./index.html">Home</a>
-        <div class="dropdown">
-          <a class="dropbtn navs">Services</a>
-          <div class="dropdown-content">
-            <a href="./divorcechildcustody.html">Divorce and Child Custody</a>
-            <a href="./mediation.html">Mediation</a>
-            <a href="./adoptions.html">Adoptions</a>
-          </div>
-        </div>
-        <a class="navs" href="./contact.html">Contact</a>
-        <a class="navs" href="./about.html">About Us</a>
-      </nav>
-    </header>
+    <div id = "header-container">
+      <header-main>
+      </header-main>
+    </div>
     <main>
       <section id="landingSec">
         <div id="backImg1"> 
@@ -273,7 +257,8 @@ can trust for your toughest problems.
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <!--   <script src="scripts/header-main.js"></script>-->
-    <script src = "./testimonials.js"></script>
+    <script src = "./scripts/testimonials.js"></script>
+    <script src = "./scripts/header-main.js"></script>
     <script>
       AOS.init({
         easing: "ease-in"
