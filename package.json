@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rfrank6023/juliebrown2/issues"
   },
-  "homepage": "https://github.com/rfrank6023/juliebrown2#readme"
+  "homepage": "https://github.com/rfrank6023/juliebrown2#readme",
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
 }
