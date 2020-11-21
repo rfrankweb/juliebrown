@@ -11,13 +11,13 @@ let headerMain = {
         <div class="dropdown">
           <a class="dropbtn navs">Services</a>
           <div class="dropdown-content">
-            <a href="./divorcechildcustody.html">Divorce and Child Custody</a>
-            <a href="./mediation.html">Mediation</a>
-            <a href="./adoptions.html">Adoptions</a>
+            <a href="/divorcechildcustody.html">Divorce and Child Custody</a>
+            <a href="/mediation.html">Mediation</a>
+            <a href="/adoptions.html">Adoptions</a>
           </div>
         </div>
-        <a class="navs" href="./contact.html">Contact</a>
-        <a class="navs" href="./about.html">About Us</a>
+        <a class="navs" href="/contact.html">Contact</a>
+        <a class="navs" href="/about.html">About Us</a>
       </nav>
     </header>
     `
